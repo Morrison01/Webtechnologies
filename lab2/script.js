@@ -18,8 +18,9 @@
     console.log("Фільтрація імен за останньою літерою:");
     var filteredNames = names.filter(name => name.charAt(name.length - 1).toLowerCase() === 'n');
     
-    // Виводимо фільтровані імена
+    // Виводимо привітання та прощання для відфільтрованих імен
     for (var j = 0; j < filteredNames.length; j++) {
-        console.log(filteredNames[j]);
+        speakHello(filteredNames[j]);
+        speakGoodbye(filteredNames[j]);
     }
 })();
