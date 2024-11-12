@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+        #startScreen { display: block; text-align: center; padding: 20px; }
+        #gameScreen { display: none; position: relative; width: 100vw; height: 100vh; border: 2px solid black; }
+        .target { display: none; position: absolute; cursor: pointer; }
+        #result { position: absolute; top: 20px; left: 20px; font-weight: bold; background: rgba(255, 255, 255, 0.8); padding: 10px; }
+    </style>
+</head>
+<body>
+    <div id="startScreen">
+        <h2>Виберіть рівень складності:</h2>
+        <select id="difficulty">
+            <option value="">-- Select a level --</option>
+            <option value="easy">Low</option>
+            <option value="medium">Medium</option>
+            <option value="hard">High</option>
+        </select>
+
+        <h2>Choose a block color:</h2>
+        <select id="color">
+            <option value="">-- Choose a color --</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+
+        <button id="startButton">Start</button>
+    </div>
+
+    <div id="gameScreen">
+        <div id="target" class="target"></div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
