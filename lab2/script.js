@@ -20,7 +20,12 @@
     
     // Виводимо привітання та прощання для відфільтрованих імен
     for (var j = 0; j < filteredNames.length; j++) {
-        speakHello(filteredNames[j]);
-        speakGoodbye(filteredNames[j]);
+        var firstLetter = filteredNames[j].charAt(0).toLowerCase();
+        
+        if (firstLetter === 'j') {
+            speakGoodbye(filteredNames[j]);
+        } else {
+            speakHello(filteredNames[j]);
+        }
     }
 })();
