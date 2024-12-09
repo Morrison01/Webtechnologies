@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Електроніка",
+    "shortname": "elec",
+    "notes": "Lorem ipsum dolor sit amet.",
+    "products": [
+      {
+        "id": 1,
+        "name": "Смартфон",
+        "shortname": "smartphone",
+        "description": "Остання модель з чудовими функціями.",
+        "price": "1000 грн",
+        "image": "https://place-hold.it/200x200?text=Smartphone"
+      },
+      {
+        "id": 2,
+        "name": "Ноутбук",
+        "shortname": "laptop",
+        "description": "Потужний ноутбук для всіх ваших потреб.",
+        "price": "2000 грн",
+        "image": "https://place-hold.it/200x200?text=Laptop"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Побутова техніка",
+    "shortname": "home",
+    "notes": "Lorem ipsum dolor sit amet.",
+    "products": [
+      {
+        "id": 1,
+        "name": "Пилосос",
+        "shortname": "vacuum",
+        "description": "Почистіть вашу оселю за кілька хвилин.",
+        "price": "3000 грн",
+        "image": "https://place-hold.it/200x200?text=Vacuum+Cleaner"
+      },
+      {
+        "id": 2,
+        "name": "Блендер",
+        "shortname": "blender",
+        "description": "Готуйте смачні смузі.",
+        "price": "4000 грн",
+        "image": "https://place-hold.it/200x200?text=Blender"
+      }
+    ]
+  }
+]

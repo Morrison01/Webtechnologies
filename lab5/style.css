@@ -1,0 +1,107 @@
+/* Загальні стилі для сторінки */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Стилі для контенту */
+#content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Секція категорій */
+#categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.category {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.category h2 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.category p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Стилі для товарів */
+.product {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.product p {
+  font-size: 1em;
+  color: #333;
+}
+
+.product p.price {
+  font-weight: bold;
+  color: #008000;
+  margin-top: 10px;
+}
+
+/* Кнопки */
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
