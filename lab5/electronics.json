@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "shortname": "smartphone",
+    "description": "A high-end smartphone with amazing features.",
+    "price": "$699",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "shortname": "laptop",
+    "description": "Lightweight and powerful laptop.",
+    "price": "$1200",
+    "image": "https://place-hold.it/200x200"
+  }
+]
